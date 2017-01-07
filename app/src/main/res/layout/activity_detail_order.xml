@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D574DC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.phuchai.myrestaurant.DetailOrder">
+
+    <TextView
+        android:id="@+id/ban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ban"
+        android:textColor="#EA151E"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ban"
+        android:layout_marginTop="5sp"
+        android:gravity="center_horizontal"
+        android:text="@string/title_chitietban"
+        android:textColor="#00FF82"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:id="@+id/relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        android:background="#F3CEB4">
+
+        <TextView
+            android:id="@+id/stt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:text="@string/stt"
+            android:textColor="#225486"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tenmon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/stt"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/stt"
+            android:text="@string/tenmon"
+            android:textColor="#225486"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tenmon"
+            android:layout_marginRight="10dp"
+            android:text="@string/sl"
+            android:textColor="#225486"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/table1"
+        android:layout_below="@+id/relative1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10sp"
+        android:background="#BAD3ED"
+        android:listSelector="@drawable/list_selector"></ListView>
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_goitiep">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/button_them"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/them" />
+
+            <Button
+                android:id="@+id/button_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ok" />
+
+            <Button
+                android:id="@+id/button_giam"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/giam" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_goitiep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_goitiep" />
+
+    <Button
+        android:id="@+id/button_huy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/button_goitiep"
+        android:text="@string/huymon" />
+
+</RelativeLayout>

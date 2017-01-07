@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74DCA8"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.phuchai.myrestaurant.ListTable">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/dsban"
+        android:textColor="#FF5900"
+        android:textSize="30sp" />
+
+    <GridView
+        android:id="@+id/gridView_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear2"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/bglistview"
+        android:listSelector="@drawable/list_selector"
+        android:numColumns="3"
+        android:padding="5sp"></GridView>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_goimon"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/hover_button"
+            android:text="@string/gm" />
+
+        <Button
+            android:id="@+id/button_dat"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/hover_button"
+            android:text="@string/dat" />
+
+        <Button
+            android:id="@+id/button_xem"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/hover_button"
+            android:text="@string/xem" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linear1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_chuyen"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/hover_button"
+            android:text="@string/chuyen" />
+
+        <Button
+            android:id="@+id/button_ghep"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/hover_button"
+            android:text="@string/ghep" />
+
+        <Button
+            android:id="@+id/button_tach"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/hover_button"
+            android:text="@string/tach" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <!-- login -->
+    <string name="lg">Login</string>
+    <string name="tk">Tài khoản</string>
+    <string name="mk">Mật khẩu</string>
+    <string name="quit">Thoát</string>
+    <!-- table layout -->
+    <string name="dsban">Danh sách bàn</string>
+    <string name="gm">Gọi món</string>
+    <string name="dat">Đặt</string>
+    <string name="xem">Xem</string>
+    <string name="chuyen">Chuyển</string>
+    <string name="tach">Tách</string>
+    <string name="ghep">Ghép</string>
+    <string name="bt_chuyen">Chuyển đến bàn</string>
+    <!-- menufood layout -->
+    <string name="send">Gửi</string>
+    <string name="cancel">Quay lại</string>
+    <!-- chi tiet ban -->
+    <string name="ban">Bàn</string>
+    <string name="title_chitietban">Danh sách món đã gọi</string>
+    <string name="button_goitiep">Gọi tiếp</string>
+    <string name="stt">STT</string>
+    <string name="tenmon">Tên món</string>
+    <string name="sl">Số lượng</string>
+    <string name="time">Thời gian</string>
+    <string name="huymon">Hủy món</string>
+    <string name="giam">-</string>
+    <string name="them">+</string>
+    <string name="ok">OK</string>
+    <!-- chi tiet thanh toan -->
+    <string name="nv">Nhân viên:</string>
+    <string name="tt">Tổng tiền</string>
+    <string name="tht">Thanh toán</string>
+    <string name="tg">Thời gian:</string>
+    <string name="sl1">SL</string>
+    <!--  -->
+    <string name="app_name">My Restaurant</string>
+</resources>
