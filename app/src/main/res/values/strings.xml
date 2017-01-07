@@ -12,7 +12,6 @@
     <string name="chuyen">Chuyển</string>
     <string name="tach">Tách</string>
     <string name="ghep">Ghép</string>
-    <string name="bt_chuyen">Chuyển đến bàn</string>
     <!-- menufood layout -->
     <string name="send">Gửi</string>
     <string name="cancel">Quay lại</string>
@@ -34,6 +33,12 @@
     <string name="tht">Thanh toán</string>
     <string name="tg">Thời gian:</string>
     <string name="sl1">SL</string>
+    <!-- dialog move table -->
+    <string name="text_chuyen">Chuyển đến bàn</string>
+    <!-- dialog book table -->
+    <string name="inputName">Họ và tên</string>
+    <string name="inputPhone">SĐT</string>
+    <string name="inputTime">Thời gian đến</string>
     <!--  -->
     <string name="app_name">My Restaurant</string>
 </resources>

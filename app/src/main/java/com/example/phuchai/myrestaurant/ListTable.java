@@ -180,8 +180,8 @@ public class ListTable extends Activity {
 
     private void bookEvent() {
         if (selected()) {
-            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
-                    ListTable.this);
+            uio
+            AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
             alertDialogBuilder.setIcon(R.drawable.ok);
             if (listTable.get(position).getStatus().equals("T")) {
                 alertDialogBuilder.setTitle("Đặt bàn");
@@ -300,10 +300,10 @@ public class ListTable extends Activity {
         final TextView textAction = (TextView) view.findViewById(R.id.textAction);
         switch (title) {
             case "Chuyển bàn":
-                textAction.setText("Chuyển đến bàn:");
+                textAction.setText("Chuyển đến bàn");
                 break;
             default:
-                textAction.setText("Ghép với bàn:");
+                textAction.setText("Ghép với bàn");
         }
 //        if (title.equals("Chuyển bàn")) {
 //            textAction.setText("Chuyển đến bàn:");
